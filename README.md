@@ -1,10 +1,10 @@
 # Introdução aos testes de performance com k6
 
-<h1 align="left">
-    <img src=".github/logo-stiker.svg" width="250px">
-</h1>
 
 # User API
+
+💡 Esse projeto foi construído acompanhando o curso básico de k6 do Fernando Papito. Com esse material, consegui compreender conceitos básicos da ferramenta e também as suas opções de aplicações. De fato, é um curso rápido, mas que abriu portas para que brevemente eu faça um curso mais aprofundado, já que este demonstrou todo o potencial da ferramenta e despertou o interesse pelos testes não funcionais.
+
 
 ## 🔖 Requisitos funcionais
 
@@ -24,10 +24,10 @@
 
 ### Cadastro
 
-- [ ] O cadastro com sucesso deve ocorrer em até 2 segundos
-- [ ] Cadastros sem sucesso devem ocorrer em até 2 segundos
-- [ ] Deve poder cadastrar até 100 usuários simultâneos
-- [ ] A margem de erro no cadastro deve ser de pelo menos 1%
+- [x] O cadastro com sucesso deve ocorrer em até 2 segundos
+- [x] Cadastros sem sucesso devem ocorrer em até 2 segundos
+- [x] Deve poder cadastrar até 100 usuários simultâneos
+- [x] A margem de erro no cadastro deve ser de pelo menos 1%
 
 ## 🚀 Tecnologias
 
@@ -54,9 +54,7 @@ yarn install
 yarn dev
 ```
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
